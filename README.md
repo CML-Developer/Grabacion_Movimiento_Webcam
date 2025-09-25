@@ -68,12 +68,14 @@ Modificar el script motion_recorder.py
 Abre el archivo motion_recorder.py y busca las siguientes secciones. Reemplaza los nombres de ejemplo con los que obtuviste en el paso anterior.
 
 Dispositivos de audio por camara (dshow)
+
 AUDIO_DEVICES = {
 0: 'audio=NOMBRE_DE_TU_MICROFONO_1', # Ejemplo: 'audio=Microfono (FaceCam 1000X)'
 1: 'audio=NOMBRE_DE_TU_MICROFONO_2' # Si solo usas un microfono para ambas, usa el mismo nombre
 }
 
 Dispositivos de video para FFmpeg (dshow)
+
 VIDEO_DEVICES = {
 0: 'video=NOMBRE_DE_TU_CAMARA_1', # Ejemplo: 'video=HP High Definition 1MP Webcam'
 1: 'video=NOMBRE_DE_TU_CAMARA_2'
@@ -81,7 +83,7 @@ VIDEO_DEVICES = {
 
 Uso del Sistema
 
-Para iniciar la grabacion: Haz doble clic en StartMotion.bat. Este script se encargara de todo, ¡y el programa se ejecutara sin mostrar una ventana de consola!
+Para iniciar la grabacion: Haz doble clic en StartMotion.bat. Este script se encargara de todo.
 
 Para detener la grabacion: Haz doble clic en StopMotion.bat. El sistema detectara el comando de parada y finalizara la grabacion de forma segura, procesando los archivos.
 
