@@ -71,6 +71,7 @@ Dispositivos de audio por camara (dshow)
 
 AUDIO_DEVICES = {
 0: 'audio=NOMBRE_DE_TU_MICROFONO_1', # Ejemplo: 'audio=Microfono (FaceCam 1000X)'
+
 1: 'audio=NOMBRE_DE_TU_MICROFONO_2' # Si solo usas un microfono para ambas, usa el mismo nombre
 }
 
@@ -78,6 +79,7 @@ Dispositivos de video para FFmpeg (dshow)
 
 VIDEO_DEVICES = {
 0: 'video=NOMBRE_DE_TU_CAMARA_1', # Ejemplo: 'video=HP High Definition 1MP Webcam'
+
 1: 'video=NOMBRE_DE_TU_CAMARA_2'
 }
 
